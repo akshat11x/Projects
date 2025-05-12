@@ -1,0 +1,203 @@
+:root {
+    --primary-blue: #3498db; /* Engaging and trustworthy */
+    --secondary-green: #2ecc71; /* Safe and reassuring */
+    --accent-yellow: #f1c40f; /* Attention-grabbing */
+    --text-color: #ecf0f1; /* Light and readable */
+    --background-dark: #34495e; /* Deep and calming */
+    --background-light: #2c3e50; /* Slightly lighter background */
+}
+
+body {
+    font-family: "League Spartan", sans-serif;
+    background-color: var(--background-dark);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 450px;
+    padding: 20px;
+    background-color: var(--background-light);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.heading {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: var(--primary-blue);
+    margin-bottom: 1rem;
+}
+
+.display-container {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.display-container input {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: var(--primary-blue);
+    background-color: var(--background-dark);
+    border: 2px solid var(--primary-blue);
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.display-container input::placeholder {
+    color: var(--primary-blue);
+    opacity: 0.7;
+}
+
+.display-container input:focus {
+    border-color: var(--accent-yellow);
+}
+
+.copyBtn {
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    transform: translateY(-50%);
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: var(--primary-blue);
+    transition: background-color 0.3s ease;
+}
+
+.copyBtn:hover {
+    background-color: var(--accent-yellow);
+}
+
+.display-container button span[data-copy-msg] {
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--primary-blue);
+    color: var(--text-color);
+    font-size: 0.9rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.display-container button span.active {
+    opacity: 1;
+}
+
+.input-container {
+    width: 100%;
+}
+
+.length-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.length-container p {
+    font-size: 1.2rem;
+    color: var(--text-color);
+}
+
+.slider {
+    width: 100%;
+    height: 10px;
+    background-color: var(--secondary-green);
+    border-radius: 5px;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+
+.slider::-webkit-slider-thumb {
+    width: 20px;
+    height: 20px;
+    background-color: var(--accent-yellow);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.slider::-webkit-slider-thumb:hover {
+    background-color: var(--primary-blue);
+}
+
+.check {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.check label {
+    margin-left: 10px;
+    color: var(--text-color);
+    font-size: 1.1rem;
+}
+
+.check input {
+    width: 20px;
+    height: 20px;
+    background-color: var(--primary-blue);
+    border: 2px solid var(--primary-blue);
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.check input:checked {
+    background-color: var(--secondary-green);
+}
+
+.strength-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.strength-section p {
+    color: var(--text-color);
+    font-size: 1.2rem;
+}
+
+#circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: var(--accent-yellow);
+    transition: background-color 0.3s ease;
+}
+
+#generateBtn {
+    width: 100%;
+    padding: 15px 0;
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--text-color);
+    background-color: var(--secondary-green);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#generateBtn:hover {
+    background-color: var(--primary-blue);
+}
