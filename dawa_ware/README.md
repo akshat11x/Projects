@@ -30,17 +30,31 @@
 
 > Add your UI and feature screenshots in the `assets/` folder and update the paths.
 
+### 🔹 Login and signup page
+
+![login_sinup](./assets/login.png)
+
+### 🔹 Dashboard and landing page
+
+![Summary Screenshot](./assets/homepage.png)
+
+### 🔹 E-commerce and store
+
+![Summary Screenshot](./assets/store.png)
+
+
 ### 🔹 Medical Report Upload and Summary
 
-![Summary Screenshot](./assets/report-summary.png)
+![Summary Screenshot](./assets/summarizer.png)
+![Summary Screenshot](./assets/summarizer1.png)
 
 ### 🔹 Language Translation View
 
-![Translation Screenshot](./assets/translation-view.png)
+![Translation Screenshot](./assets/translators.png)
 
 ### 🔹 Appointment Scheduler
 
-![Appointment Scheduler](./assets/appointment.png)
+![Appointment Scheduler](./assets/appointments.png)
 
 ---
 
@@ -71,8 +85,8 @@ CEREBRAS_API_KEY=your_cerebras_api_key
 MONGODB_URI=your_mongo_uri
 TRANSLATE_API_KEY=your_translation_api_key
 
-
-##📌 Future Enhancements
+```
+## 📌 Future Enhancements
 🗣️ Voice-to-text input for report uploads
 
 🧠 Integration with Electronic Health Records (EHRs)
