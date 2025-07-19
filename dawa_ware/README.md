@@ -71,5 +71,11 @@ CEREBRAS_API_KEY=your_cerebras_api_key
 MONGODB_URI=your_mongo_uri
 TRANSLATE_API_KEY=your_translation_api_key
 
-   
+
+##📌 Future Enhancements
+🗣️ Voice-to-text input for report uploads
+
+🧠 Integration with Electronic Health Records (EHRs)
+
+📊 Dashboard for doctors with patient summary history
 
