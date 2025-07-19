@@ -60,6 +60,6 @@ Choose your settings:
 -Add password history feature.
 -Show password strength score using entropy.
 -Export generated password list as .txt or .csv.
-
+---
 ## 🙌 Acknowledgments
 Inspired by modern password managers and security best practices
