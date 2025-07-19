@@ -23,15 +23,11 @@ An interactive and dynamic weather forecasting web app built using **HTML**, **C
 
 🔹 Homepage
 
-![Homepage UI](./assets/homepage.png)
+![Homepage UI](./assets/home.png)
 
 ### 🔹 City Search Weather View
 
 ![City Search](./assets/city_search.png)
-
-### 🔹 Responsive Mobile View
-
-![Mobile View](./assets/mobile-view.png)
 
 ---
 
