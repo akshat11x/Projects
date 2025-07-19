@@ -51,19 +51,14 @@ This project involves building a predictive model using **Recurrent Neural Netwo
 
 ## 📷 Screenshots
 
-> Place your visualizations in the `assets/` folder and update the image paths.
 
-### 🔹 Historical Trend and Indicators
+### 🔹 Training of the model on the different epochs
 
-![Historical Chart](./assets/historical-trend.png)
+![different_epochs](./assets/different_epochs.png)
 
-### 🔹 Model Training Loss over Epochs
+### 🔹 Analysis of verious trends
 
-![Training Loss](./assets/training-loss.png)
-
-### 🔹 Predicted vs Actual Prices
-
-![Prediction Chart](./assets/predicted-vs-actual.png)
+![Training Loss](./assets/trends.png)
 
 ---
 
