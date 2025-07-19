@@ -51,15 +51,15 @@ start index.html
 Choose your settings:
 
 3. Set desired password length
--Select character types (uppercase, numbers, symbols, etc.)
--Click “Generate password”
+- Select character types (uppercase, numbers, symbols, etc.)
+- Click “Generate password”
 
 4. Copy password to clipboard with one click
 
 ## 📌 Future Enhancements:
--Add password history feature.
--Show password strength score using entropy.
--Export generated password list as .txt or .csv.
+- Add password history feature.
+- Show password strength score using entropy.
+- Export generated password list as .txt or .csv.
 ---
 ## 🙌 Acknowledgments
 Inspired by modern password managers and security best practices
