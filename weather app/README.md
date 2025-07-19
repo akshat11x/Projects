@@ -27,7 +27,7 @@ An interactive and dynamic weather forecasting web app built using **HTML**, **C
 
 ### 🔹 City Search Weather View
 
-![City Search](./assets/city-search.png)
+![City Search](./assets/city_search.png)
 
 ### 🔹 Responsive Mobile View
 
