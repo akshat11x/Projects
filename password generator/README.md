@@ -54,12 +54,12 @@ Choose your settings:
 -Select character types (uppercase, numbers, symbols, etc.)
 -Click “Generate password”
 
-4.Copy password to clipboard with one click
+4. Copy password to clipboard with one click
 
-📌 Future Enhancements
+## 📌 Future Enhancements
 -Add password history feature
 -Show password strength score using entropy
 -Export generated password list as .txt or .csv
 
-🙌 Acknowledgments
+## 🙌 Acknowledgments
 Inspired by modern password managers and security best practices
